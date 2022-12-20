@@ -1,7 +1,7 @@
 body{
-    
+    margin-top:25%;
+    margin-bottom: 60%;
     background: #6c6868;
-    background: linear-gradient(52deg,#6c6868 0%, #41c541 80%);
     background: -webkit-linear-gradient(52deg,#6c6868 0%, #41c541 80%);
     background: -moz-linear-gradient(52deg,#6c6868 0%, #41c541 80%);
     display: flex;
