@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoKenPo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="geral">
+        <div>
+            <a href="https://github.com/RodrigoPetronis">github.com/RodrigoPetronis</a>
+        </div>
+
+        <div>
+            <img src="jokenpo.png">
+        </div>
+        <section id="jogadores">
+            <span id="totPC">0</span> <span>Computador</span>
+            <span>Jogador</span><span id="totJogador">0</span>
+        </section>
+
+        <section class="ringueClass" id="icones">
+            <span>
+
+                <button class="ringue" id="pcPadrao">&#X270A;</button>
+                <button class="ringue" id="pcPedra" hidden>&#X1F91B;</button>
+                <button class="ringue" id="pcPapel" hidden>&#X1F91A;</button>
+                <button class="ringue" id="pcTesoura" hidden>&#X270C;</button>
+            </span>
+
+            <span>
+
+                <button class="ringue" id="rpadrao">&#X270A;</button>
+                <button class="ringue" id="rpedra" hidden>&#X1F91B;</button>
+                <button class="ringue" id="rpapel" hidden>&#X1F91A;</button>
+                <button class="ringue" id="rtesoura" hidden>&#X270C;</button>
+            </span>
+        </section>
+
+
+        <section class="botoes">
+            <button class="botoes" id="pedra">&#X1F91B;</button>
+            <button class="botoes" id="papel">&#X1F91A;</button>
+            <button class="botoes" id="tesoura">&#X270C;</button>
+        </section>
+
+        <section id="restart">
+            <button class="jogar">Jogar</button>
+            <button class="reiniciar" id="reiniciar">Reiniciar</button>
+
+        </section>
+
+        <p id="res"></p>
+
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
